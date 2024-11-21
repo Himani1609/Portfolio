@@ -421,7 +421,7 @@ footer {
 }
 
 
-
+/* It works with 767px*/
 /*Responsive Design (tablet Display)*/
 @media screen and (max-width: 768px){
 
@@ -512,7 +512,8 @@ footer {
     }
 }
 
-
+/* It works with 319px*/
+/*Responsive Design (phone Display)*/
 @media screen and (max-width: 320px){
 
     nav{
