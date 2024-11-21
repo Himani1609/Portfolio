@@ -18,11 +18,24 @@
             <li><a href="#">CONTACT</a></li>
         </ul>   
     </nav>
+
     <div class="SocialMedia">
         <a href="#"><img src="./images/Linkedin.png" alt="Linkedin Link"></a>
         <a href="#"><img src="./images/facebook.png" alt="Facebook Link"></a>
         <a href="#"><img src="./images/twitter.png" alt="Twitter Link"></a>
     </div>
+
+    <nav class="mobile_nav">
+    <ul>
+        <li><a href="./index.html">HOME</a></li>
+        <li><a href="#">ABOUT</a></li>
+        <li><a href="#">SKILLS</a></li>
+        <li><a href="#">PROJECTS</a></li>
+        <li><a href="#">CONTACT</a></li>
+    </ul>   
+    </nav>
+
+    
     </header>
     <main>
         <section class="Hero">
@@ -32,7 +45,7 @@
                 <button type="submit">Contact Me</button>
             </div>
             <div class="Photo">
-                <img src="./images/myphoto.png" alt="My Photo">
+                <img src="./images/My_Photo.png" alt="My Photo">
             </div>
         </section>
         <section class="AboutMe">
@@ -158,30 +171,33 @@
                 </div>
                 <div>
                     <label for="services">SERVICES</label>
-                    <select id="services" name="services" required >
+                    <select id="services" name="services" required>
                         <option value="" disabled selected>--Choose One Option--</option>
-                        <options value="1">Project Inquiry</options>
-                        <options value="2">Collaboration</options>
-                        <options value="3">Job Opportunity</options>
-                        <options value="3">Other</options>
+                        <option value="1">Project Inquiry</option>
+                        <option value="2">Collaboration</option>
+                        <option value="3">Job Opportunity</option>
+                        <option value="4">Other</option>
                     </select>
-                </div>
+                </div>                
                 <div>
                     <p>PREFERRED CONTACT METHOD</p>
                     <div class="check-main">
                         <div class="check">
-                            <input type="checkbox" id="contact-method" name="contact-method" required checked>
-                            <label for="contact-method">Email</label>
+                            <input type="checkbox" id="contact-method1" name="contact-method1" required checked>
+                            <label for="contact-method1">Email</label>
                         </div>
                         <div class="check">
-                            <input type="checkbox" id="contact-method" name="contact-method" required>
-                            <label for="contact-method">Phone</label>
+                            <input type="checkbox" id="contact-method2" name="contact-method2" required>
+                            <label for="contact-method2">Phone</label>
                         </div>
                     </div>
                 </div>
                 <div>
-                    <label for="">PREFERRED DATE AND TIME OF CONTACT</label>
-                    <input type="datetime-local" id="" name="" required>
+                    <label for="date-time-contact">PREFERRED DATE AND TIME OF CONTACT</label>
+                    <input type="datetime-local" id="date-time-contact" name="date-time-contact" required>
+                </div>
+                <div>
+                    <button type="submit">Submit</button>
                 </div>
             </form>
         </section>
@@ -204,7 +220,7 @@
                     <a href="#"><img src="./images/twitter.png" alt="Twitter Link"></a>
                 </div>
             </div>
-            <div class="Copyright">copyright &copy HB,2024.</div>
+            <div class="Copyright">copyright &copy;HB,2024.</div>
         </div>
 
     </footer>
